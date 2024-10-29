@@ -1,0 +1,22 @@
+#section1 body{
+    background-color:black;
+}
+
+#section1 .class1{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 4px solid white;
+    background-color: hotpink;
+    display:inline-block;
+}
+
+#section1 p{
+    display: inline;
+    background-color: aqua;
+    visibility: hidden;
+}
+
+#section1 .class1:hover .Paragraph {
+    visibility: visible;
+}

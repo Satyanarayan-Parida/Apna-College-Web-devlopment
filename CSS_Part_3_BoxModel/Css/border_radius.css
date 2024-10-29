@@ -1,0 +1,16 @@
+div {
+    height:50px;
+    width: 100px;
+    border-radius: 10px 100px / 120px;
+    border:2px solid rgb(255, 127, 62);
+    text-align: center;
+    background-color: rgb(212, 190, 228);
+
+}
+
+p {
+    color: rgb(59, 30, 84);
+}
+body{
+    background-color: rgb(255, 246, 233);
+}

@@ -1,0 +1,13 @@
+#contentViewer h2 {
+  color: chocolate;
+}
+
+#contentViewer p {
+  background-color: black;
+  color: white;
+}
+
+#contentViewer button {
+  background-color: blue;
+  color: white;
+}

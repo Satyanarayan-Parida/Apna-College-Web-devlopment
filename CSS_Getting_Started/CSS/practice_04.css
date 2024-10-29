@@ -1,0 +1,46 @@
+#contentViewer {
+    background-color: wheat;
+    font-family: georgia,arial;
+}
+
+#contentViewer h1,h3,h4 {
+    text-align: center;
+}
+
+#contentViewer #poem {
+    color: red;
+}
+
+#contentViewer #poet {
+    color: black;
+}
+
+#contentViewer p {
+    color: #A52A2A;
+    text-align: center;
+    line-height:30px;
+}
+
+#contentViewer a {
+    text-decoration: none;
+    color: rgb(0,150,0);
+}
+
+#contentViewer button {
+    background-color: #ffffff;
+    color: blueviolet;
+}
+
+#contentViewer textarea {
+    color: #000000;
+    resize: none;
+}
+
+#contentViewer span {
+    text-decoration:rgb(79, 26, 109) wavy underline;
+}
+
+#contentViewer form {
+    text-align: center;
+    
+}

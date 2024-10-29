@@ -1,0 +1,33 @@
+#signup {
+    background-color: chocolate;
+}
+
+h1 {
+    color: rgb(186, 44, 44);
+}
+
+.upvote {
+    background-color: green;
+    color: aliceblue;
+}
+
+/* Descendant Selector */
+nav ul li a{
+    color:chocolate;
+    text-decoration: none;
+}
+
+/* sibling combinator */
+.upvote + button {
+    background-color: beige;
+    border-color: rgb(180, 35, 35);
+}
+
+p + h3 {
+    color: rgb(17, 122, 117);
+}
+
+p > a {
+    text-decoration: none;
+    color: rgb(39, 17, 160);
+}

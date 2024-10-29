@@ -1,0 +1,23 @@
+h1::first-letter {
+    color:purple;
+}
+
+
+div{
+    height: 570.400px;
+    width:85px;
+    background-color: aquamarine;
+    display: inline-block;
+    border: 1px solid black
+}
+h1{
+    width: 28%;
+    text-align: left;
+}
+
+p{
+    text-align: center;
+    margin-top: unset;
+    margin-bottom: unset;
+    text-decoration:red wavy underline;
+}

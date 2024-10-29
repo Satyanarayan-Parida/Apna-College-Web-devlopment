@@ -1,0 +1,34 @@
+h1:hover{
+    color: brown;
+    text-decoration:yellowgreen wavy underline;
+    text-align: center;
+    cursor: progress;  
+
+}
+h1::first-letter{
+    color: darksalmon;
+}
+
+.post,p{
+    display: inline-block;
+    width: 50%;
+}
+p{
+    text-align: center;
+}
+
+p::selection{
+    background-color: cadetblue;
+}
+
+
+
+.post:nth-of-type(odd):hover{
+    color: brown;
+    text-align: center;
+    font-family: sans-serif;
+    display: inline-block;
+    width: 50%;
+    border: 1px solid black;
+    background-color: bisque;
+}

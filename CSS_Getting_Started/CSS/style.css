@@ -1,0 +1,15 @@
+#contentViewer h1 {
+    color: brown;
+}
+
+#contentViewer p {
+    color: red;
+}
+
+#contentViewer button {
+
+    color: azure;
+    background-color: black;
+    border-radius: 0.5cm;
+    cursor: pointer;
+}

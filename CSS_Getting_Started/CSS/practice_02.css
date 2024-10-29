@@ -1,0 +1,49 @@
+/* Adding Fonts */
+
+@font-face {
+    font-family: Bradley;
+    src: url('../Fonts/Bradley/BradleyHandITC.woff2') format('woff2'),
+         url('../Fonts/Bradley/BradleyHandITC.woff') format('woff'),
+         url('../Fonts/Bradley/BRADHITC.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#contentViewer{
+    font-family: Bradley,serif;
+    color: darkolivegreen;
+    background-color: rgb(24, 85, 25);
+}
+
+#contentViewer h1 {
+    font-family:Bradley;
+    text-align: center;
+    color:rgb(252, 222, 112);
+    font-size: 40px;
+    /* border: solid; */
+    /* width:50%; */  
+    text-decoration:double underline;
+}
+
+#contentViewer h3,h4{
+    font-family: Bradley;
+    color: rgb(252, 222, 112);
+    
+}
+
+#contentViewer p {
+    color:rgb(245, 247, 248);
+    font-size: medium;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+#contentViewer hr {
+    border: none;
+    height: 0.07px;
+    background-color: rgb(232, 184, 109);
+    width: 100%;  /* Set the width of the line */
+    margin: 20px auto;  /* Add space and center the line */
+}

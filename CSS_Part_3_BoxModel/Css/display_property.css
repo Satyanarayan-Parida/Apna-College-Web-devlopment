@@ -1,0 +1,22 @@
+#first h1{
+    color: brown;
+    background-color: cadetblue;
+}
+#first span{
+    color: blueviolet;
+    background-color: greenyellow;
+}
+
+#second h1{
+    color: brown;
+    display: inline;
+    background-color: cadetblue;
+}
+#second span{
+    color: blueviolet;
+    display: block;
+    background-color: greenyellow;
+}
+hr{
+    color: rgb(0, 0, 0);
+}

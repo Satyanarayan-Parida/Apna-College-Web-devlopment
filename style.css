@@ -1,0 +1,140 @@
+/* Reset body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Styling for the top section */
+.section1 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* Responsive heading */
+#Heading {
+    text-transform: uppercase;
+    color: #2D4059;
+    text-decoration: rgb(255, 180, 0) wavy underline;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: clamp(1.5rem, 2.5vw, 2.5rem); /* Responsive font size */
+    margin: 0;
+}
+
+/* Responsive paragraph */
+.paragraph1 {
+    color: #EA5455;
+    font-family: sans-serif;
+    max-width: 80%;
+    margin: 0 auto;
+    font-size: clamp(1rem, 2vw, 1.2rem); /* Responsive font size */
+    line-height: 1.6;
+    padding: 10px;
+}
+
+/* Flex layout for main content */
+.main-content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+}
+
+/* Projects list styling */
+.project-list {
+    width: 30%;
+    min-width: 200px;
+    padding-right: 20px;
+}
+
+.project-list li {
+    margin: 10px 0;
+    list-style-type: decimal;
+}
+
+/* Link styling */
+.project-list a {
+    text-decoration: none; /* Remove underline */
+    color: #007BFF; /* Link color */
+}
+
+.project-list a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive content viewer */
+.content-viewer {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    height: 60vh; /* Responsive height */
+    overflow-y: auto;
+    max-height: calc(100vh - 160px);
+    min-width: 280px;
+    font-size: clamp(1rem, 1.8vw, 1.1rem); /* Responsive font size for viewer text */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column; /* Stack elements vertically on small screens */
+        align-items: center;
+    }
+
+    .content-viewer {
+        height: 50vh; /* Adjusted height for smaller screens */
+        max-height: 60vh;
+    }
+
+    .project-list {
+        width: 100%; /* Full width on smaller screens */
+        padding: 0;
+        text-align: center;
+    }
+}
+
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: clamp(1rem, 1.8vw, 1.1rem); /* Responsive font size */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+    font-size: clamp(1rem, 1.8vw, 1.1rem); /* Responsive font size */
+}
+
+/* Optional: Style for links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}

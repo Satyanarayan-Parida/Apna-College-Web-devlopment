@@ -1,0 +1,25 @@
+h1 {
+    color: #0866ff;
+}
+
+.userbtn{
+    color: white;
+
+}
+
+#Login {
+    background-color: #0866ff;
+    color: aliceblue;
+    border: 1px solid red
+}
+
+#Register {
+    background-color:#42B72A;
+    color: aliceblue;
+    border: 1px solid red
+}
+
+#searchbtn {
+    background-color: black;
+    color: aliceblue;
+}

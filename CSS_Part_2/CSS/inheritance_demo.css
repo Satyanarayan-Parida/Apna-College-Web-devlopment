@@ -1,0 +1,20 @@
+input[type="text"] {
+    background-color: azure;
+    color: cornflowerblue;
+    caret-color: red;
+ }
+
+ input[type="password"]{
+   background-color: azure;
+   color: brown;
+   
+ }
+ h1:hover{
+   color: cornflowerblue;
+   cursor: not-allowed;
+ }
+ 
+ h1:active{
+   color: red;
+   
+ }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single-Page Project Viewer</title>
+    <link rel="stylesheet" href="style.css"> <!-- Main stylesheet -->
+    
+</head>
+
+<body>
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+    <!-- Section at the top with heading and paragraph -->
+    <section class="section1">
+        <h1 id="Heading">My Projects</h1>
+        <p class="paragraph1">
+            Hey everyone! Please don't judge the design of this page too harshly. I’m simply documenting my journey in
+            web development. I want to look back someday and say, 'Wow! I started from this point and have come so far!'
+        </p>
+    </section>
+    <!-- Main content area with project list and content viewer -->
+    <div class="main-content">
+        <!-- Dropdown menu for project list -->
+        <div class="dropdown">
+            <button class="dropbtn" onclick="toggleDropdown()">Group 1 Projects</button>
+            <div class="dropdown-content" id="dropdownContent">
+                <a href="javascript:void(0);" onclick="showProject(1)">Project 1</a>
+                <a href="javascript:void(0);" onclick="showProject(2)">Project 2</a>
+                <a href="javascript:void(0);" onclick="showProject(3)">Project 3</a>
+                <a href="javascript:void(0);" onclick="showProject(4)">Project 4</a>
+                <a href="javascript:void(0);" onclick="showProject(5)">Project 5</a>
+                <a href="javascript:void(0);" onclick="showProject(6)">Project 6</a>
+            </div>
+        </div>
+        
+        <!-- Content viewer on the right -->
+        <div class="content-viewer" id="contentViewer">
+            <h2>Welcome!</h2>
+            <p>Select a project to view its details.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
